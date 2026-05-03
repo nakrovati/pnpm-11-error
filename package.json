@@ -2,7 +2,7 @@
   "name": "pnpm-11-error",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Info: no test specified\" && exit 0"
   },
