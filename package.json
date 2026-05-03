@@ -14,6 +14,12 @@
     "@hono/node-server": "^2.0.1",
     "hono": "^4.12.16"
   },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.0.4"
+    }
+  },
   "devDependencies": {
     "@types/node": "^25.6.0"
   }
