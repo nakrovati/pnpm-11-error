@@ -9,13 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.0.4",
-      "onFail": "download"
-    }
-  },
   "type": "module",
   "dependencies": {
     "@hono/node-server": "^2.0.1",
