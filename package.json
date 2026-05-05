@@ -18,7 +18,7 @@
     "packageManager": {
       "name": "pnpm",
       "version": ">=11.0.4",
-      "onFail": "warn"
+      "onFail": "download"
     }
   },
   "devDependencies": {
