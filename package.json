@@ -2,26 +2,26 @@
   "name": "pnpm-11-error",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Info: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "@hono/node-server": "^2.0.1",
-    "hono": "^4.12.16"
-  },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": ">=11.0.8",
-      "onFail": "download"
+      "version": "^11.0.9",
+      "onFail": "warn"
     }
   },
+  "type": "module",
+  "dependencies": {
+    "@hono/node-server": "^2.0.2",
+    "hono": "^4.12.18"
+  },
   "devDependencies": {
-    "@types/node": "^25.6.0"
+    "@types/node": "^25.6.2"
   }
 }
