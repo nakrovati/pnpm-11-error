@@ -13,13 +13,12 @@
     "packageManager": {
       "name": "pnpm",
       "version": "^11.0.9",
-      "onFail": "warn"
+      "onFail": "download"
     }
   },
   "type": "module",
   "dependencies": {
-    "@hono/node-server": "^2.0.2",
-    "hono": "^4.12.18"
+    "chalk": "^5.6.2"
   },
   "devDependencies": {
     "@types/node": "^25.6.2"

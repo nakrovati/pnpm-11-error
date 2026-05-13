@@ -1,7 +1,3 @@
-import { serve } from '@hono/node-server'
-import { Hono } from 'hono'
+import chalk from "chalk";
 
-const app = new Hono()
-app.get('/', (c) => c.text('Hello Node.js!'))
-
-serve(app)
+console.log(chalk.blue("Hello world!"));
