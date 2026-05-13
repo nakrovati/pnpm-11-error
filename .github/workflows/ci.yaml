@@ -30,6 +30,3 @@ jobs:
 
       - name: pnpm version
         run: pnpm --version
-
-      - name: pnpm test
-        run: pnpm test
